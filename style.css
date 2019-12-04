@@ -1,0 +1,47 @@
+@font-face{
+  font-family: "Bluu Next";
+  src: url(bluunext.woff2), url(bluunext.woff) ;
+}
+body {
+	font-family: "Bluu Next";
+	font-size: 24px;
+	line-height: 1.25;
+
+	background-color: #cfffaf;
+  background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255,0));
+	color: #333333;
+/*   fit whole page height*/
+  height: 100vh;
+  transition:  background-color 1s;
+}
+
+h1 {
+	font-size: 56px;
+	text-indent:  -0.4em;
+  margin: 0 0 20px 0;
+}
+h1.long{
+  font-size: 40px;
+}
+h1,p{
+  width: 640px;
+}
+
+section{
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+  justify-content: center;
+  /*   fit whole body height*/
+  height: 100vh;
+}
+footer{
+/*   will always be seen */
+  position: fixed;
+  bottom:0 ;
+  left: 0;
+/*   make footer fill the page */
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
