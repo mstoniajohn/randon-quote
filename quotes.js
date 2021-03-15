@@ -3,7 +3,7 @@ const quoteTag = document.querySelector("h1")
 const randomTag = document.querySelector("footer img")
 const bodyTag = document.querySelector("body")
 const authorTag = document.querySelector("p")
-console.log(NAME)
+console.log(process.env.NAME)
 
 // let data = []
 
